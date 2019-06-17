@@ -9,8 +9,9 @@ namespace WishList.Models
     public class Item
     {
         public int id { get; set; }
+
         [Required]
-        [MaxLength(5)]
+        [MaxLength(50)]
         public string description { get; set; }
 
     }
